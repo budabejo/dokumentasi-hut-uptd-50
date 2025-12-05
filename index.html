@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Dokumentasi HUT ke-50 - UPTD Puskesmas Petang I</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="loading">
+  <div class="loader-ring"></div>
+  <div class="loading-text">Memuat dokumentasi...</div>
+</div>
+
+<header class="topbar">
+  <div class="title-wrap">
+    <h1>Dokumentasi Perayaan HUT ke-50</h1>
+    <p>UPTD Puskesmas Petang I</p>
+  </div>
+  <div class="controls">
+    <button id="slplay" class="ctrl">⏯️</button>
+    <button id="musicBtn" class="ctrl">🎵</button>
+  </div>
+</header>
+
+<main>
+  <div class="slideshow-full" id="slideshow">
+    <button class="nav prev" id="prevBtn" aria-label="Previous">❮</button>
+    <button class="nav next" id="nextBtn" aria-label="Next">❯</button>
+    <div id="slides" class="slides" aria-live="polite"></div>
+    <div id="marquee" class="marquee">Selamat HUT ke-50 — UPTD Puskesmas Petang I</div>
+  </div>
+</main>
+
+<footer class="foot">
+  © 2025 UPTD Puskesmas Petang I
+</footer>
+
+<!-- background music (replace music/music.mp3 with your file) -->
+<audio id="bgm" src="music/music.mp3" loop preload="auto"></audio>
+
+<script src="script.js"></script>
+</body>
+</html>
